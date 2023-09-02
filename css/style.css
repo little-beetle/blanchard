@@ -1,0 +1,173 @@
+:root {
+}
+
+/* settings */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 1600px;
+  align-items: center;
+}
+.section__block {
+  padding: 80px 0;
+  min-width: 1600px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.list--reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__block {
+  display: flex;
+  min-width: 1600px;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 30px 0;
+}
+
+.text-logo,
+.text-logo-about {
+  margin: 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  min-width: 754px;
+}
+
+.top-nav {
+  display: flex;
+
+  margin-right: 240px;
+  padding: 30px 0;
+}
+.header__list .nav__item {
+  display: flex;
+  align-items: center;
+}
+.enter {
+  padding: 36px 0;
+}
+
+/* section base */
+
+.section__block {
+  display: flex;
+}
+
+.block--base {
+  padding: 23px 0;
+  justify-content: space-between;
+}
+
+.base-nav {
+  min-width: 1036px;
+  display: flex;
+  align-items: center;
+}
+
+.block__list-base {
+  min-width: 1036px;
+}
+
+.search {
+  max-width: 251px;
+}
+
+.block-base-article {
+  display: flex;
+  flex-direction: column;
+  max-width: 597px;
+  padding: 63px 0 122px 0;
+}
+
+.article-base {
+  margin-bottom: 92px;
+}
+
+.block__article-title {
+  margin-bottom: 1px;
+}
+
+.block__btn-base {
+  padding: 17px 35px;
+  max-width: 220px;
+}
+
+/* about us */
+
+.block__article-about-us {
+  max-width: 1080px;
+}
+
+.block__article-about-us .title-section {
+  margin-bottom: 16px;
+}
+
+/* gallery */
+
+.block__element--gallery {
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 435px;
+}
+
+.block__article-gallery .title-section {
+  margin-bottom: 16px;
+}
+
+.select-desc {
+  margin-bottom: 10px;
+}
+
+.select-option {
+  min-width: 400px;
+}
+
+.select-btn:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* product */
+
+.block--product {
+  display: flex;
+  max-width: 1600px;
+  flex-direction: column;
+}
+
+.block--product .block__element:nth-child(1) {
+  max-width: 1080px;
+  margin-bottom: 50px;
+}
+
+.article-product .title-section {
+  margin-bottom: 16px;
+}
